@@ -32,10 +32,12 @@ Actualizar delo local al remoto:
 git push https://github.com/nombre_de_repo/
 
 
-------------------------------------
-Sigo la rama del servidor y la creo en mi local
-----------------------------------
-git checkout track origin/develop
+-----------------------------------------
+Sigo la rama del server y la creo en mi local sincronizando
+-----------------------------------------
+$ git fetch (makes sure you have remote branch in local repository).
+git branch --track branch-name origin/branch-name  
+(creates local branch which tracks remote branch. It assumes that your remote name is origin)
 
 ------------------------------------
 Crear rama local y cambiar a la misma:
