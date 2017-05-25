@@ -79,8 +79,12 @@ Si tienes más de un remoto, este comando los lista todos.
 $ cd grit
 $ git remote -v
 
+-------------------------------------------
+Traigo los cambios de remoto y fuciono dos proyectos de historiales distintos
+--------------------------------------------
+git pull origin master —allow-unrelated-histories
 
-
+-------------------------------------
 RAMIFICAR Y FUSIONAR:
 -------------------------------------
 Lista todas las branches escribiendo:
